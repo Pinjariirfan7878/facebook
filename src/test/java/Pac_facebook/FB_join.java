@@ -14,6 +14,7 @@ public class FB_join {
 		WebDriver driver=new FirefoxDriver();
 		driver.get("http://www.facebook.com/");
 		System.out.println(driver.getTitle());
+		driver.manage().window().maximize();
 	}
 
 }
